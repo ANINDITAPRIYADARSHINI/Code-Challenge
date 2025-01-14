@@ -1,0 +1,31 @@
+.container{
+    margin-top: 18%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.desc {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 20px;
+    min-width: 120px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn);
+    color: var(--textNight);
+}
