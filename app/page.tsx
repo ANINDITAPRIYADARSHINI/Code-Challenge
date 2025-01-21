@@ -1,3 +1,6 @@
+"use client"
+
+import Form from "./form/Form";
 import styles from "./home.module.css";
 
 export default function Home() {
@@ -6,7 +9,7 @@ export default function Home() {
       <h1 className={styles.title}>Welcome to the code challenge!</h1>
       <p className={styles.desc}>Let's start the fun of coding.Click the button below to get started.</p>
 
-      <button className={styles.button}>Start Challenge</button>
+      <button className={styles.button} onClick = {() => {<Form />}} >Start Challenge</button>
     </div>
   );
 }
