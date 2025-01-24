@@ -1,0 +1,13 @@
+.container {
+    height: fit-content;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 50%;
+    border-radius: 8px;
+    border-color: antiquewhite;
+    background-color: beige;
+    color: var(--bgNight);
+}
