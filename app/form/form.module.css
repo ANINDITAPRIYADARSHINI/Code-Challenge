@@ -1,13 +1,38 @@
-.container {
-    height: fit-content;
-    width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.form {
+    max-width: "400px";
+    padding: "1rem";
+    border: "1px solid #ccc";
+    border-radius: "8px";
+    color: var(--bgLight);
+    margin-left: 20%;
     margin-top: 20%;
-    margin-left: 50%;
-    border-radius: 8px;
-    border-color: antiquewhite;
-    background-color: beige;
-    color: var(--bgNight);
-}
+    width: 50%;
+  }
+
+  .field {
+    margin-bottom: "1rem";
+    gap: 20%;
+  }
+
+  .label {
+    display: "block";
+     margin-bottom: "0.5rem";
+    font-weight: "bold";
+  }
+
+  .input {
+    width: "100%";
+    padding: "0.5rem";
+    border-radius: "4px";
+    border: "1px solid #ccc";
+    margin-top: 20px;
+  }
+  .button {
+    padding: "0.5rem 1rem";
+    background-color: "#0070f3";
+    color: "#fff";
+    border: "none";
+    border-radius: "4px";
+    cursor: "pointer";
+  }
