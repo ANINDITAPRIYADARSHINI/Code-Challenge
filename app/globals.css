@@ -21,7 +21,7 @@ body{
   color: var(--textNight);
 }
 
-/*.container {
+container {
   width: 1536px;
   margin: auto;
   padding-left: 50px;
@@ -30,4 +30,4 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}*/
+}
