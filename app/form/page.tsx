@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import styles from "./form.module.css";
+import styles from './form/nodule.css'
 
 export default function Form() {
     const [name, setName] = useState("");
