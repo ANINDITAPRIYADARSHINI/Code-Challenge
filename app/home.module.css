@@ -29,4 +29,5 @@
     background-color: var(--btn);
     color: var(--textNight);
     transition: 5s;
+    animation: forwards;
 }
